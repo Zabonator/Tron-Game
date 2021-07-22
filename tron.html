@@ -1,7 +1,7 @@
-<!-->
+<!--
 Tron Game written with Javascript
 By Owen Szabo
-</!-->
+!-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,8 +11,14 @@ By Owen Szabo
         <link rel="stylesheet" type="text/css" href="tron.css">
     </head>
     <body>
+    <div style="color: gray">
+        Tron Game written with Javascript
+        By Owen Szabo
+    </div>
+
     <h1>TRON GAME</h1>
-    <canvas id="tron" width="800%" height="450%"></canvas>
+    <div id="score" style="text-align: center; font-size: 18px"></div>
+    <canvas id="tron" width="800" height="450"></canvas>
     <script src="tron.js"></script>
         <button id="play" onclick="beginGame()"><strong>PLAY GAME</strong></button>
     </body>
