@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+#tron {
+    background-color: black;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+
+#play {
+    text-align: center;
+    color:white;
+    margin-left: 45%;
+    margin-right: 38%;
+    margin-top: 1%;
+    background-color: black;
+    border: none;
+    font-size: 200%;
+    font-family: fantasy;
+    padding: 0.5%;
+}
